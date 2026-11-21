@@ -1,6 +1,6 @@
-# FL-IDS: Federated Learning-Based Intrusion Detection System
+# FL-IDS-SDN: Federated Learning-Based Intrusion Detection with SDN Mitigation
 
-**Status: complete (2026-10-16).** Every phase is implemented, run on the
+**Status: complete (final version, November 2026).** Every phase is implemented, run on the
 real data and verified end to end; the paper is being written.
 
 A federated intrusion detection system for IoT/IIoT traffic (Edge-IIoTset).
