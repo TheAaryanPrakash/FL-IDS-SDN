@@ -1744,7 +1744,7 @@ at full scale; MITM cannot be split by connection and is scored only by zero-day
 full 1.43M-row classifier is a separate experiment, §8.10); stealth / pruning / clip are single-seed at full scale; the full-scale seeds are 42-44 only.
 
 ### 8.16 Class split, training time and time to decide on a packet (2026-11-03)
-Shown on the showcase site (https://aronnnn1.github.io/FL-IDS-showcase/). All numbers below come from files in this repository.
+Shown on the showcase site (https://theaaryanprakash.github.io/FL-IDS-SDN/). All numbers below come from files in this repository.
 - *Class split of the 1,985,768 usable rows* (counted from `data/processed/encoded_extended.npz`): Normal 1,436,597 (72.3%); Backdoor 24,167;
   DDoS_HTTP 49,768; DDoS_ICMP 68,758; DDoS_TCP 50,062; DDoS_UDP 121,567; Fingerprinting 872; MITM 406; Password 50,033; Port_Scanning 20,213;
   Ransomware 9,885; SQL_injection 50,981; Uploading 37,243; Vulnerability_scanner 50,044; XSS 15,172. The standalone classifier on all rows

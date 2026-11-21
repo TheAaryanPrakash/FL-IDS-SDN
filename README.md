@@ -4,6 +4,8 @@
 real data and verified end to end; the paper is being written.
 
 A federated intrusion detection system for IoT/IIoT traffic (Edge-IIoTset).
+**Live demo:** https://theaaryanprakash.github.io/FL-IDS-SDN/ (interactive walkthrough and arena; the original results site is at [/results/](https://theaaryanprakash.github.io/FL-IDS-SDN/results/)). Source in `showcase/` and `docs/`.
+
 Five parts, each doing real work:
 
 1. **IDS cascade**: a LightGBM classifier labels known attack types. Traffic

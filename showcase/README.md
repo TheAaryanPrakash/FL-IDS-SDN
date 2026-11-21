@@ -3,8 +3,8 @@
 An interactive walkthrough of **Federated Learning-based Intrusion Detection System for SDN-enabled IoT Networks**
 (Aaryan Prakash, Aaron B Ajay, Amal Roy, Amogh Krishna J S; Department of Computer Science & Engineering, BMS College of Engineering).
 
-Live site: https://aronnnn1.github.io/FL-IDS-showcase/
-Project code and run logs: https://github.com/Aronnnn1/FL-IDS
+Live site: https://theaaryanprakash.github.io/FL-IDS-SDN/
+Project code and run logs: https://github.com/TheAaryanPrakash/FL-IDS-SDN
 
 ## What is in it
 
@@ -12,7 +12,7 @@ Project code and run logs: https://github.com/Aronnnn1/FL-IDS
   (a training round, cheating sites caught, an attack caught and blocked, a brand-new attack type), step-by-step controls and
   settings you can change. Clicking a part of the map zooms into an animated scene of that part.
 - **Results**: one long page with every measured table and chart, for reading alone.
-- Every number is copied from `PAPER_NOTES.md` section 8.15 of the FL-IDS repository and carries a tag saying how it was measured
+- Every number is copied from `PAPER_NOTES.md` section 8.15 of the FL-IDS-SDN repository and carries a tag saying how it was measured
   (for example "measured · full pool · 3 seeds" or "seed 42 only"). Animations are schematic, not measured timings.
 
 All numbers live in one file, `src/data.js`.
@@ -25,7 +25,7 @@ npm run dev      # local preview
 npm run build    # production build in dist/
 ```
 
-Run `scripts/deploy.sh` to build the site and publish it to the `gh-pages` branch, which GitHub Pages serves.
+The site is built and published to GitHub Pages by the workflow in `.github/workflows/pages.yml` on every push to `main`. The Vite `base` is `/FL-IDS-SDN/`, so the site is served under that path.
 
 ## Stack
 

@@ -22,8 +22,8 @@ export const TEAM = [
 export const TITLE = 'Federated Learning-based Intrusion Detection System for SDN-enabled IoT Networks';
 
 export const LINKS = {
-  repo: 'https://github.com/Aronnnn1/FL-IDS',
-  oldSite: 'https://aronnnn1.github.io/FL-IDS/',
+  repo: 'https://github.com/TheAaryanPrakash/FL-IDS-SDN',
+  oldSite: 'https://theaaryanprakash.github.io/FL-IDS-SDN/results/',
   report: 'downloads/FL-IDS_Project_Report.pdf',
   deck: 'downloads/FL-IDS_PP2_Presentation.pdf',
 };

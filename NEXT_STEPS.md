@@ -24,7 +24,7 @@ FL-IDS is a federated-learning intrusion detection system for IoT/IIoT networks 
 - Headline numbers: known attacks 99.56–99.89% micro recall (not inflated by the old row split); packet false alarms 2.5–16.3%, connection-level 0.3–1.0%, typical site about 3%; zero-day cascade mean 0.910/0.944/0.895 (60k: 0.943/0.952/0.952); trust-filter survival at 30% attackers 0.50/0.55/0.62; stealth survival 0.60/0.73/0.80 vs sign-flip 0.30/0.50/0.60 (seed 42 only); live replay: 14/14 blocked, 12/14 named correctly (MITM → Ransomware, OS Fingerprinting → DDoS_ICMP).
 - Code: grouped splits in `fl_ids/data/pipeline.py`, config flag `DataConfig.group_by_flow`, configs in `configs/full/`, scripts in `scripts/reruns/`, tools in `tools/`.
 - Documents: `PAPER_NOTES.md`, `README.md`, `docs/results.html` (section 7d), report PDF (71 pages), deck (28 slides), two explainers.
-- Live site: https://aronnnn1.github.io/FL-IDS/ (source in `docs/`).
+- Live site: https://theaaryanprakash.github.io/FL-IDS-SDN/results/ (source in `docs/`).
 
 ## 5. Known limits (state these in anything we publish)
 - MITM is one connection (406 rows): it goes wholly to the server's calibration set and is scored only by the zero-day test and the live replay.
