@@ -24,7 +24,7 @@ export const TITLE = 'Federated Learning-based Intrusion Detection System for SD
 export const LINKS = {
   repo: 'https://github.com/TheAaryanPrakash/FL-IDS-SDN',
   oldSite: 'https://theaaryanprakash.github.io/FL-IDS-SDN/results/',
-  report: 'downloads/FL-IDS_Project_Report.pdf',
+  report: 'downloads/FL-IDS_Project_Report.pdf?v=101p',
   deck: 'downloads/FL-IDS_Final_Presentation.pdf',
   deckPP2: 'downloads/FL-IDS_PP2_Presentation.pdf',
   deckPP2Pptx: 'downloads/FL-IDS_PP2_Presentation.pptx',
