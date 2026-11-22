@@ -16,6 +16,7 @@
 \usepackage{titlesec}
 \usepackage{etoolbox} % needed for patching TOC entries
 \usepackage{amsmath}            % Equations
+\usepackage{amssymb}            % \checkmark
 \usepackage{float}
 \usepackage{array}
 \usepackage{longtable}
@@ -33,6 +34,7 @@
 
 % Title formatting
 \titleformat{\chapter}[hang]{\bfseries\centering\LARGE}{Chapter \thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{-24pt}{18pt}
 \titleformat{\section}[hang]{\bfseries\Large}{\thesection}{1em}{}
 
 % Fancy Header/Footer
@@ -202,6 +204,30 @@ Finally, we thank our families and friends for their constant support.
 \bibitem{hsu2019noniid} T.-M. H. Hsu, H. Qi and M. Brown, ``Measuring the Effects of Non-Identical Data Distribution for Federated Visual Classification'', arXiv:1909.06335, 2019.
 \bibitem{galal2026provenance} M. M. Galal, ``Provenance, Not Behaviour: A Serialisation Artifact in Edge-IIoTset and a Leakage-Free Benchmark for Precision-Agriculture Intrusion Detection'', arXiv:2608.15761 (preprint), Aug. 2026.
 \bibitem{sharafaldin2018cicids} I. Sharafaldin, A. H. Lashkari and A. A. Ghorbani, ``Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization'', in \textit{Proc. International Conference on Information Systems Security and Privacy (ICISSP)}, 2018.
+\bibitem{kairouz2021} P. Kairouz \textit{et al.}, ``Advances and open problems in federated learning'', \textit{Found. Trends Mach. Learn.}, vol. 14, no. 1--2, pp. 1--210, 2021, doi: 10.1561/2200000083.
+\bibitem{beutel2020} D. J. Beutel \textit{et al.}, ``Flower: A friendly federated learning research framework'', arXiv:2007.14390, 2020.
+\bibitem{rey2022} V. Rey \textit{et al.}, ``Federated learning for malware detection in IoT devices'', \textit{Comput. Netw.}, vol. 204, art. no. 108693, 2022, doi: 10.1016/j.comnet.2021.108693.
+\bibitem{nguyen2025fedmse} V. T. Nguyen and R. Beuran, ``FedMSE: Semi-supervised federated learning approach for IoT network intrusion detection'', \textit{Comput. Secur.}, vol. 151, art. no. 104337, 2025, doi: 10.1016/j.cose.2025.104337.
+\bibitem{sazid2026} Z. Y. Sazid and R. Abbas, ``Cybersecurity in edge computing: A trust-aware federated hybrid intrusion detection framework'', arXiv:2609.39584 (preprint), 2026.
+\bibitem{shahin2025} M. Shahin, A. Hosseinzadeh and F. Chen, ``A two-stage hybrid federated learning framework for privacy-preserving IoT anomaly detection and classification'', \textit{IoT}, vol. 6, no. 3, art. no. 48, 2025, doi: 10.3390/iot6030048.
+\bibitem{pillai2026} N. Pillai and M. Mathivanan, ``FL-NDR: A federated unlearning-driven network detection and response system for DDoS defence in software-defined networks'', \textit{Int. J. Saf. Secur. Eng.}, vol. 16, no. 6, 2026, doi: 10.18280/ijsse.160615.
+\bibitem{blanchard2017} P. Blanchard \textit{et al.}, ``Machine learning with adversaries: Byzantine tolerant gradient descent'', in \textit{Advances in Neural Information Processing Systems 30}, 2017.
+\bibitem{fang2020} M. Fang \textit{et al.}, ``Local model poisoning attacks to Byzantine-robust federated learning'', in \textit{Proc. 29th USENIX Secur. Symp.}, pp. 1623--1640, 2020.
+\bibitem{li2021spatial} Z. Li \textit{et al.}, ``Byzantine-robust federated learning through spatial-temporal analysis of local model updates'', in \textit{Proc. IEEE 27th Int. Conf. Parallel Distrib. Syst. (ICPADS)}, pp. 372--379, 2021, doi: 10.1109/ICPADS53394.2021.00052.
+\bibitem{fung2020} C. Fung, C. J. M. Yoon and I. Beschastnikh, ``The limitations of federated learning in sybil settings'', in \textit{Proc. 23rd Int. Symp. Res. Attacks, Intrusions Defenses (RAID)}, pp. 301--316, 2020.
+\bibitem{zhu2024cosine} T. Zhu \textit{et al.}, ``Byzantine-robust federated learning via cosine similarity aggregation'', \textit{Comput. Netw.}, vol. 254, art. no. 110730, 2024, doi: 10.1016/j.comnet.2024.110730.
+\bibitem{li2024experimental} S. Li, E. C. Ngai and T. Voigt, ``An experimental study of Byzantine-robust aggregation schemes in federated learning'', \textit{IEEE Trans. Big Data}, vol. 10, no. 6, pp. 975--988, 2024, doi: 10.1109/TBDATA.2023.3237397.
+\bibitem{thein2024} T. T. Thein, Y. Shiraishi and M. Morii, ``Personalized federated learning-based intrusion detection system: Poisoning attack and defense'', \textit{Future Gener. Comput. Syst.}, vol. 153, pp. 182--192, 2024, doi: 10.1016/j.future.2023.10.005.
+\bibitem{luong2024} T. Luong \textit{et al.}, ``Fed-LSAE: Thwarting poisoning attacks against federated cyber threat detection system via autoencoder-based latent space inspection'', \textit{J. Inf. Secur. Appl.}, vol. 87, art. no. 103916, 2024, doi: 10.1016/j.jisa.2024.103916.
+\bibitem{mirsky2018} Y. Mirsky \textit{et al.}, ``Kitsune: An ensemble of autoencoders for online network intrusion detection'', in \textit{Proc. Netw. Distrib. Syst. Secur. Symp. (NDSS)}, 2018, doi: 10.14722/ndss.2018.23204.
+\bibitem{engelen2021} G. Engelen, V. Rimmer and W. Joosen, ``Troubleshooting an intrusion detection dataset: The CICIDS2017 case study'', in \textit{Proc. IEEE Secur. Privacy Workshops (SPW)}, pp. 7--12, 2021, doi: 10.1109/SPW53761.2021.00009.
+\bibitem{vaccari2020} I. Vaccari \textit{et al.}, ``MQTTset, a new dataset for machine learning techniques on MQTT'', \textit{Sensors}, vol. 20, no. 22, art. no. 6578, 2020, doi: 10.3390/s20226578.
+\bibitem{firouzi2025} A. Firouzi \textit{et al.}, ``DataSense: A real-time sensor-based benchmark dataset for attack analysis in IIoT with multi-objective feature selection'', \textit{Electronics}, vol. 14, no. 20, art. no. 4095, 2025, doi: 10.3390/electronics14204095.
+\bibitem{sommer2010} R. Sommer and V. Paxson, ``Outside the closed world: On using machine learning for network intrusion detection'', in \textit{Proc. IEEE Symp. Secur. Privacy}, pp. 305--316, 2010, doi: 10.1109/SP.2010.25.
+\bibitem{arp2022} D. Arp \textit{et al.}, ``Dos and don'ts of machine learning in computer security'', in \textit{Proc. 31st USENIX Secur. Symp.}, pp. 3971--3988, 2022.
+\bibitem{mckeown2008} N. McKeown \textit{et al.}, ``OpenFlow: Enabling innovation in campus networks'', \textit{ACM SIGCOMM Comput. Commun. Rev.}, vol. 38, no. 2, pp. 69--74, 2008, doi: 10.1145/1355734.1355746.
+\bibitem{lantz2010} B. Lantz, B. Heller and N. McKeown, ``A network in a laptop: Rapid prototyping for software-defined networks'', in \textit{Proc. 9th ACM SIGCOMM Workshop Hot Topics Netw. (HotNets)}, pp. 1--6, 2010, doi: 10.1145/1868447.1868466.
+\bibitem{chen2016xgboost} T. Chen and C. Guestrin, ``XGBoost: A scalable tree boosting system'', in \textit{Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining}, pp. 785--794, 2016, doi: 10.1145/2939672.2939785.
 \end{thebibliography}
 \clearpage
 \chapter*{Plagiarism}
@@ -237,6 +263,83 @@ flow table:
 \begin{verbatim}
 244 passed, 1 skipped, 2 warnings in 462.87s (0:07:42)
 \end{verbatim}
+
+\subsection*{Snapshots of the live arena: changing the network}
+The arena (\url{https://theaaryanprakash.github.io/FL-IDS-SDN/arena/}) lets a user edit the topology and then press Play. Every verdict shown is the real output of the cascade for that client's model and capture; the packets themselves are not sent in the hosted version. Figures~\ref{fig:snap:sample}--\ref{fig:snap:normal} show what happens when the network changes.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_sample.jpg}
+\caption{The arena at start: the sample network of five client networks with three hosts each, a core switch and the SDN controller. Attack hosts carry a named attack, the others are normal.}
+\label{fig:snap:sample}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_rules.jpg}
+\caption{Run on the sample network, Switch rules tab. The controller installed nine \texttt{ipv4\_src=\ldots $\rightarrow$ drop} rules, one on the first switch of each attacking host, with 6,068 to 7,754 packets dropped by each rule. The six normal hosts have no rule.}
+\label{fig:snap:rules}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_added_ready.jpg}
+\caption{\textbf{Adding networks.} Two networks were added with \emph{+ Network}: Client~6 and Client~7, with their own switches s7 and s8, give seven client networks in all. The Mixed scenario was then applied, so every host has a role and is ready to run.}
+\label{fig:snap:addready}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_added_results.jpg}
+\caption{After adding two networks and pressing Play: 12 of 12 attacks detected, blocked by a drop rule and named correctly, and 0 of 9 normal hosts blocked. The average time from launch to block was 1.2~s and the switch rules dropped 87,341 packets. The arena warns that the model of Client~7 flags about 22\% of its own normal traffic, close to the 25\% limit of the alarm rule.}
+\label{fig:snap:addresults}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_removed_ready.jpg}
+\caption{\textbf{Removing networks.} Two networks were removed with \emph{-- Network}, leaving three client networks under the core switch. The Mixed scenario was applied to the remaining hosts. The controller and the remaining switches are unchanged.}
+\label{fig:snap:rmready}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_removed_results.jpg}
+\caption{After removing two networks and pressing Play: 5 of 5 attacks detected, blocked and named correctly, 0 of 4 normal hosts blocked, 36,378 packets dropped. A smaller network behaves exactly like the larger one, because every client decides with its own model and threshold.}
+\label{fig:snap:rmresults}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_normal.jpg}
+\caption{False-alarm check: every host is set to normal. All 15 hosts are judged normal by the autoencoder stage with 97 to 100\% confidence, no rule is installed (0 of 15 normal hosts wrongly blocked) and no packet is dropped.}
+\label{fig:snap:normal}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_all14.jpg}
+\caption{All 14 attack types at once (one normal host). The scoreboard shows 14 of 14 attacks detected, 13 of 14 blocked by a drop rule, 12 of 14 named correctly and 0 of 1 normal hosts blocked, with 87,208 packets dropped. Two cases are not perfect, and the arena marks them: Fingerprinting is blocked but named as DDoS ICMP, and the MITM host is detected by the autoencoder at only 26\% confidence, below the blocking threshold, so it is detected but not blocked.}
+\label{fig:snap:all14}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_arena_replay.jpg}
+\caption{Replay of a recorded real run from the live lab (eight client networks, one with four hosts, 25 hosts in all). The scoreboard at the end of the replay shows 13 of 13 attacks detected, blocked and named correctly, 0 of 11 normal hosts blocked, 64,159 packets dropped and an average time to block of 14.1~s, because real packets were sent at 500 packets per second. Host c1h4 is still shown as analysing when the replay stops.}
+\label{fig:snap:replay}
+\end{figure}
+
+\subsection*{Snapshots of malicious clients}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.84\linewidth]{figures/snap_cheat30.jpg}
+\caption{Showcase site, scenario ``Cheating sites caught'': three of ten sites (red) send sign-flipped updates. The side panel gives the measured values for seed~42: half of the cheaters get past the trust filter (survival 0.500), the autoencoder recall of the full pipeline is 0.490 against 0.013 with plain averaging, and over seeds 42, 43 and 44 the survival is 0.50, 0.55 and 0.62. The animation is schematic; the numbers are measured.}
+\label{fig:snap:cheat}
+\end{figure}
+
+\noindent The measured effect of malicious clients on the whole pipeline is given in Chapter~\ref{chap:results}, where the fraction of malicious clients is swept from 0\% to 50\% (the poisoning-resistance figure) and the per-round trust scores of honest and malicious clients are plotted.
+
 \clearpage
 \section {Appendix B: Details of list of publications related to this project}
 {\large Author Names: } Aaron B Ajay, Aaryan Prakash, Amal Roy, Amogh Krishna JS, Syed Akram \\
