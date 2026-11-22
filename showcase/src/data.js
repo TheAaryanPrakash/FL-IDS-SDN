@@ -25,7 +25,9 @@ export const LINKS = {
   repo: 'https://github.com/TheAaryanPrakash/FL-IDS-SDN',
   oldSite: 'https://theaaryanprakash.github.io/FL-IDS-SDN/results/',
   report: 'downloads/FL-IDS_Project_Report.pdf',
-  deck: 'downloads/FL-IDS_PP2_Presentation.pdf',
+  deck: 'downloads/FL-IDS_Final_Presentation.pdf',
+  deckPP2: 'downloads/FL-IDS_PP2_Presentation.pdf',
+  deckPP2Pptx: 'downloads/FL-IDS_PP2_Presentation.pptx',
 };
 
 export const DATASET = {

@@ -509,8 +509,9 @@ export const SLIDES = [
         <h2>Read it, run it, download it.</h2>
         <div className="row">
           <a className="pill solid" href={LINKS.report} target="_blank" rel="noreferrer">Project report (PDF)</a>
-          <a className="pill solid" href={LINKS.deck} target="_blank" rel="noreferrer">Presentation (PDF)</a>
-          <a className="pill solid" href="downloads/FL-IDS_PP2_Presentation.pptx" target="_blank" rel="noreferrer">Presentation (PPTX)</a>
+          <a className="pill solid" href={LINKS.deck} target="_blank" rel="noreferrer">Final presentation (PDF)</a>
+          <a className="pill" href={LINKS.deckPP2} target="_blank" rel="noreferrer">Earlier presentation (PDF)</a>
+          <a className="pill" href={LINKS.deckPP2Pptx} target="_blank" rel="noreferrer">Earlier presentation (PPTX)</a>
           <a className="pill solid" href="arena/" target="_blank" rel="noreferrer">Live arena (interactive simulator)</a>
           <a className="pill" href="#/results">All results</a>
           <a className="pill" href={LINKS.repo} target="_blank" rel="noreferrer">GitHub repository</a>
